@@ -11,7 +11,7 @@ import {
 const Navbar = () => {
   return (
     <>
-      <div className="flex justify-between items-center p-5 ">
+      <div className="flex justify-between items-center p-5 pl-2  sm:pl-72 border-b border-gray-200">
         <div className="relative  hidden sm:block">
           <input
             type="text"

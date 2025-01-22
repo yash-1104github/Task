@@ -8,7 +8,7 @@ import Recentactivity from "./Dashboard/Recentactivity";
 const Dashboard = () => {
     return (
         <>
-            <div className="p-4 flex-1">
+            <div className="p-4 flex-1 pl-0 sm:pl-72">
                 <h1 className="text-2xl font-bold mb-4 ml-3  text-gray-800">Dashboard</h1>
 
 

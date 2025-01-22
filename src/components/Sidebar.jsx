@@ -13,7 +13,7 @@ import {
 const Sidebar = () => {
   return (
     <>
-      <div className="w-64 min-h-screen  border-r border-gray-200 bg-slate-100 p-6  hidden sm:block">
+      <div className="w-64 min-h-screen  border-r border-gray-200 bg-slate-100 p-6  hidden sm:block  fixed top-0 left-0">
         <div className="flex items-center mb-8 gap-4">
           <img src="/icon.svg" alt="Icon" className="h-8 w-8" />
           <div className="text-blue-800 text-2xl font-bold">Vasitum</div>
@@ -30,6 +30,10 @@ const Sidebar = () => {
           <div className="text-gray-400 text-sm mt-8 mb-4">OTHER</div>
           <SidebarItem icon={<Headphones />} text="Support" />
           <SidebarItem icon={<Settings />} text="Settings" />
+        </div>
+
+        <div className="mt-20">
+          <p className="text-base  text-gray-500">Developed by <span className="text-xl">Yash Gupta</span></p>
         </div>
       </div>
     </>
